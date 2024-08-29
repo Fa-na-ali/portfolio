@@ -1,0 +1,192 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto';
+}
+.header-wrapper img{
+    max-width:10rem;
+    height:auto;
+}
+
+.header-wrapper .navbar-toggler:focus{
+    box-shadow:none;
+}
+.header-wrapper .nav-link{
+    margin:0 0.7rem;
+}
+.header-wrapper img{
+    width:120px;
+    height:110px;
+}
+.header-wrapper .nav-link {
+    font-family: Roboto;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #5F1F56;
+}
+
+.header-wrapper .nav-link.active,
+.header-wrapper .nav-link:hover{
+    color:#6f42c1;
+}
+.header-scrolled{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background-color: white;
+    box-shadow: 0 0.25rem 0.375rem rgba(12,0,46,.05);
+}
+.main-btn{
+    display: inline-block;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1rem;
+   
+    text-transform: uppercase;
+    border-radius: 0.3125rem;
+    border: double 0.125rem transparent;
+   
+    transition: all .3s ease-in-out;
+}
+.home a{
+    background-color: #6f42c1;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+.home a:hover{
+    background-color: white;
+    color:#6f42c1;
+    border-color:#6f42c1;
+}
+
+.home h2{
+    font-size: 2rem;
+    color:#5F1F56;
+    
+}
+
+.home h5{
+    font-size: 1.5rem;
+   
+    color:rgb(87, 82, 82)
+   
+}
+
+
+@media(max-width:991px){
+    .header-scrolled{
+        height:auto;
+
+    }
+    .header-wrapper .navbar-collapse{
+        margin-top: -0.125rem;
+    }
+    .header-wrapper .menu-navbar-nav{
+        text-align: center;
+        background-color: white;
+        padding-bottom: 0.9375rem;
+    }
+    .header-wrapper .nav-link{
+        margin-top: 0.9375rem;
+    }
+
+}
+
+.about-wrapper .about-bar{
+     width:100%;
+    color: #5F1F56;
+}
+.about-wrapper .about-bar h2{
+    font-size:3rem
+}
+.about-wrapper p{
+    font-weight: 300;
+    color:#333333;
+    font-size: 1.6rem;
+    
+}
+
+.about-wrapper a{
+    background-color: #6f42c1;
+    color: white;
+}
+.about-wrapper a:hover{
+    background-color: white;
+    color:#6f42c1;
+    border-color:#6f42c1;
+}
+.about-wrapper .card h2{
+    font-weight: 300;
+}
+.about-wrapper .card h5{
+    font-weight: 300;
+}
+.about-wrapper .card img{
+    width:90px;
+    height:100px;
+}
+.about-wrapper .card .image-card{
+    width:192px;
+    height:124px;
+}
+.about-wrapper .para{
+font-size: 1rem;
+}
+.edu h5{
+    color:#5F1F56;
+}
+.edu p{
+    color: #795548 ;
+}
+.edu .card{
+    height:182.39px;
+}
+.about-wrapper .skills-part{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* contact*/
+.contact .btn{
+    background-color:#6f42c1;
+color:white;
+}
+.contact .btn:hover{
+    background-color: white;
+    color:#6f42c1;
+    border-color:#6f42c1;
+}
+
+    /*footer styling*/
+    .social-icons {
+        font-size: 36px;
+        cursor: pointer;
+    }
+    .fa-facebook:hover,.fa-instagram:hover,.fa-github:hover,.fa-linkedin:hover{
+        color: #6f42c1;
+    }
+    .fab {
+        color: white;
+    }
+    /* footer styling */
+    #footer {
+        background-color:black;
+        text-align: center;
+    }
+   #footer p{
+    color:white;
+   }
