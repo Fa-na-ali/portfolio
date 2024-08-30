@@ -74,7 +74,7 @@ if(subject.value==='' || subject.value==null){
         else{
             err_msg.innerHTML = "";
         }
-        if(name.value && mail.value && subject.value && msg.value){
+        if(name.value && mail.value.match(email_check) && subject.value && msg.value){
             alert("Form submitted successfully");
             window.location.reload();
         }
